@@ -1,0 +1,22 @@
+{
+  "contains_overridable_hubl_tags" : false,
+  "content_tags" : [ ],
+  "css_assets" : [ ],
+  "editable_contexts" : [ ],
+  "external_js" : [ ],
+  "extra_classes" : "",
+  "global" : false,
+  "help_text" : "",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "js_assets" : [ ],
+  "label" : "Accessible FAQ Module",
+  "other_assets" : [ ],
+  "placement_rules" : [ ],
+  "purchased" : false,
+  "smart_type" : "NOT_SMART",
+  "tags" : [ "accordion", "lists", "richtext", "text", "interaction", "layout" ],
+  "portal_id" : ,
+  "id" : ,
+  "module_id" : ,
+  "is_available_for_new_content" : true
+}

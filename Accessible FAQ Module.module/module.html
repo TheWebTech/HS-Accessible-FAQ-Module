@@ -1,0 +1,17 @@
+<section class="a11y-faq-module" id="faq">
+  <div class="page-center">
+
+    {% for item in module.item %}
+    <details class="a11y-faq-module__block">
+      <summary class="a11y-faq-module__summary">
+      {{ item.question }}
+      </summary>
+      <div class="a11y-faq-module__content">
+        {% inline_rich_text field="details" value="{{ item.details }}" %}
+      </div>
+
+    </details>
+    {% endfor %}
+
+  </div>
+</section>
