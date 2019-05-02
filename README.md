@@ -5,6 +5,9 @@ An accessibility friendly FAQ HubSpot Custom Module that requires no CSS or JS t
 Super easy to add your own styling, class names are based on BEM.
 
 Wrapper - `.a11y-faq-module`
+
 Q&A block -  `.a11y-faq-module__block`
+
 Question text -`.a11y-faq-module__summary`
+
 Answer text - `.a11y-faq-module__content`
