@@ -6,6 +6,9 @@ An accessibility friendly FAQ HubSpot Custom Module that requires no CSS or JS t
 Demo of the output of the module:
 https://codepen.io/thewebtech/pen/xevLpE
 
+JS Pane JS is an optional polyfill, this fallsback gracefully without the polyfill, just included it as some may want it.
+https://caniuse.com/#search=details
+
 Super easy to add your own styling, class names are based on BEM.
 
 Wrapper - `.a11y-faq-module`
