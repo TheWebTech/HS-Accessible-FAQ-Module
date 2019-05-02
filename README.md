@@ -11,3 +11,5 @@ Q&A block -  `.a11y-faq-module__block`
 Question text -`.a11y-faq-module__summary`
 
 Answer text - `.a11y-faq-module__content`
+
+To link to the FAQ section from anywhere in your page `<a href="#faq">FAQs</a>`
