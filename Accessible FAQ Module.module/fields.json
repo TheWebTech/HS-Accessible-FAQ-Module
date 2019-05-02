@@ -1,0 +1,48 @@
+[ {
+  "id" : "40bfc199-d466-59bd-cb17-12cd3041ce28",
+  "name" : "item",
+  "type" : "group",
+  "label" : "Item",
+  "sortable" : false,
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "1c4c6ee6-91d2-012e-b233-8d584cd4fa0f",
+    "default" : 1
+  },
+  "hierarchical" : false,
+  "max_depth" : 0,
+  "children" : [ {
+    "id" : "1c4c6ee6-91d2-012e-b233-8d584cd4fa0f",
+    "name" : "question",
+    "type" : "text",
+    "label" : "Summary/Question",
+    "sortable" : false,
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "hierarchical" : false,
+    "max_depth" : 0,
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "default" : "Question"
+  }, {
+    "id" : "3e16f04a-b5df-5c59-381e-faaf4931dc1d",
+    "name" : "details",
+    "type" : "richtext",
+    "label" : "Details/Answer",
+    "sortable" : false,
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "hierarchical" : false,
+    "max_depth" : 0,
+    "default" : "Answer"
+  } ],
+  "default" : [ {
+    "question" : "Question",
+    "details" : "Answer"
+  } ]
+} ]
