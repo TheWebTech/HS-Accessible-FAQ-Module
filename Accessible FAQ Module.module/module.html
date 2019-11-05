@@ -1,17 +1,20 @@
-<section class="a11y-faq-module" id="faq" aria-label="Accordion List">
+<section class="a11y-faq-module" id="faq-{{ module.faq_group_title|lower|replace(' ','_') }}" aria-label="Accordion List">
   <div class="page-center">
+    <h2>
+      {% inline_text field="faq_group_title" value="{{ module.faq_group_title }}" %}
+    </h2>
+    <div class="a11y-faq-module--group">
+      {% for item in module.item %}
+      <details class="a11y-faq-module__block">
+        <summary class="a11y-faq-module__summary">
+        {{ item.question }}
+        </summary>
+        <div class="a11y-faq-module__content">
+          {% inline_rich_text field="details" value="{{ item.details }}" %}
+        </div>
 
-    {% for item in module.item %}
-    <details class="a11y-faq-module__block">
-      <summary class="a11y-faq-module__summary">
-      {{ item.question }}
-      </summary>
-      <div class="a11y-faq-module__content">
-        {% inline_rich_text field="details" value="{{ item.details }}" %}
-      </div>
-
-    </details>
-    {% endfor %}
-
+      </details>
+      {% endfor %}
+    </div>
   </div>
 </section>
